@@ -1,0 +1,646 @@
+body{
+    scroll-behavior: smooth;
+    margin: 0;
+}
+
+.Cover
+{
+    display: flex;
+    gap: 200px;
+}
+
+#main-div {
+    padding: 100px;
+}
+
+.header{
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+    background-color: white;
+    z-index: 9999;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.233);
+
+}
+
+.nav-menu{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+}
+
+.nav-menu a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav-menu a:hover{
+    color: orangered;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.site-identity{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.site-identity img{
+    width: 50px;
+    height: 50px;
+}
+
+.cover-heading h1{
+    font-size: 65px;
+}
+
+.cover-buttons button{
+    background-color: black;
+    padding: 10px 30px;
+    color: white;
+    border: none;
+}
+
+.menu-btn{
+    background-color: gray;
+    color: violet !important; 
+    padding: 10px 15px;
+}
+
+.menu-btn a{
+    color: white !important; 
+}
+
+.menu-btn:hover{
+    background-color: orangered;
+    border-radius: 20px;
+    transition: all;
+}
+
+.menu-btn a:hover{
+    color: white !important;
+    text-decoration: none;
+    font-weight: 400;
+}
+   
+.sub-heading{
+    font-size: 18px;
+    color: black;
+    font-weight: 600;
+    opacity: 0.6;
+}
+
+.cover-buttons button{
+    padding: 20px 40px;
+    font-size: 18px;
+    margin-right: 15px;
+}
+
+.cover-buttons button:hover{
+    background-color: orangered;
+}
+
+.small-text{
+    color: black;
+    opacity: 0.5;
+    margin-top: 10px;
+}
+
+
+.introduction{
+    display: none;
+}
+
+.home-btn:hover + .introduction{
+    display: flex;
+}
+
+.description{
+    display: none;
+}
+
+.about-btn:hover + .description{
+    display: flex;
+}
+
+.section-2{
+    height: 1000%;
+    width: 1350px;
+    display: flex;
+    justify-content: right;
+
+}
+
+.section2-div-1{
+    display: flex;
+    width: 50%;
+    height: 50%;
+    justify-content: right;
+}
+
+.section2-div-1 img{
+    width: 150px;
+    height: 150px;
+}
+
+.image-cont{
+    background-color: #d8c8c8;
+    width: 500%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-2-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-2-2 img{
+    display: flex;
+    width: 10%;
+    height: 10%;
+}
+
+.HardBookcover{
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.HardBookcover img{
+    width: 70%;
+    height: 70%;
+    padding: 40px;
+}
+
+.Book1{
+    display: flex;
+}
+
+.Book1 img{
+    display: flex;
+    width: 1500px;
+    height: 700px;
+    justify-content: center;
+    align-items: center;
+}
+
+.Description-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Description-1-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 100px;
+}
+
+.Book1-1-cover{
+    display: flex;
+    justify-content: center
+}
+
+.Book1-1 img{
+    display: flex;
+    justify-content: center;
+    padding: 0px 130px;
+
+}
+
+.Description-1-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Book2-cover{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+
+.Book2{
+    display: flex;
+    justify-content: right;
+}
+
+.Book2 img{
+    display: flex;
+    justify-content: right;
+    width: 520px;
+    height: 550px;
+    padding:  20px 10px;
+}
+
+.Book2-2{
+    display: flex;
+    justify-content: left;
+}
+
+.Book2-2 img{
+    display: flex;
+    justify-content: left;
+    width: 520px;
+    height: 550px;
+    padding: 20px 10px;
+}
+
+.Description-2{
+    display: flex;
+    padding: 5px 70px;
+    justify-content: center;
+    align-items: center;
+}
+
+.Description-2-2{
+    display: flex;
+    padding: 0px 50px;
+    justify-content: center;
+    align-items: center;    
+}
+
+.Description-2-3{
+    display: flex;
+    padding: 0px 50px;
+    justify-content: left;
+    align-items: center;
+}
+
+.Description-2-4{
+    display: flex;
+    padding: 0px 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.Description-2-5{
+    display: flex;
+    padding: 0px 50px;
+    justify-content: right;
+    align-items: center;
+}
+.Book2-3{
+    display: flex;
+    justify-content: center;
+}
+
+.Book2-3 img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1350px;
+    height: 900px;
+}
+
+.Book2-4{
+    display: flex;
+    padding: 0px 20px;
+    justify-content: center;
+    align-items: center;
+    color: darkslategrey;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.Book2-4 img{
+    display: flex;
+    padding:  0px 20px;
+}
+
+.Book3-1{
+    display: flex;
+    justify-content: center;
+}
+
+.Book3-1 img{
+    display: flex;
+    justify-content: center;
+    width: 1300px;
+    height: 600px;
+    padding: 10px;
+}
+
+.Description-3-1{
+    display: flex;
+    justify-content: center;
+}
+
+.Description-3-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 30px;
+}
+
+.Book3{
+    display: flex;
+    justify-content: left right;
+}
+
+.Book3-3{
+    display: flex;
+    justify-content: right;
+}
+
+.Book3-3 img{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    padding: 0px 20px;
+
+}
+
+.Description-3-3{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-right: 10px;
+    color: darkslategrey;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.Book3-2{
+    display: flex;
+}
+
+.Book3-2 img{
+    width: 40%;
+    height: 400px;
+    padding:0px 50px;
+}
+
+.Description-3-5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 30px; 
+    color: darkslategrey;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.Book3-5{
+    display: flex;
+}
+
+.Book3-5 img{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.Description-3-6{
+    display: flex;
+    justify-content: baseline;
+    padding: 0px 40px;
+}
+
+.Description-3-7{
+    display: flex;
+    justify-content: center;
+    padding: 0px 40px;
+
+}
+
+.Description-3-8{
+    display: flex;
+    justify-content: right;
+    padding: 0px 40px;
+}
+
+.Book4{
+    display: flex;
+}
+
+.Book4 img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.Description-4-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Description-4-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:  0px 40px;
+}
+
+.Book4_1{
+    display: flex;
+    justify-content: right left;
+}
+
+.Book4-3-1 img{
+    display: flex;
+    width: 50%;
+    height: 70%;
+    padding: 0px 70px;
+}
+
+.Description-4-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.Description-4-4{
+    display: flex;
+    justify-content: center;
+    padding: 0px 100x;
+}
+
+.Description-4-5{
+    display: flex;
+    justify-content: left;
+    padding: 0px 300px;
+    color: darkslategrey;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.Description-4-6{
+    display: flex;
+    justify-content: center;
+    color: darkslategrey;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.Description-4-7{
+    display: flex;
+    justify-content: right;
+    padding: 0px 300px;
+    color: darkslategrey;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.Book4-4 img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 310px;
+}
+
+.Description-4-8{
+    display: flex;
+    padding: 0px 70px;
+    color: darkslategrey;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.Description-4-9{
+    display: flex;
+    padding: 0px 70px;
+    color: darkslategrey;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.Description-4-10{
+    display: flex;
+    padding: 0px 70px;
+    color: darkslategrey;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.Description-4-11{
+    display: flex;
+    padding: 0px 70px;
+    color: darkslategrey;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.Description-4-12{
+    display: flex;
+    padding: 0px 70px;
+    color: darkslategrey;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.Description-4-13{
+    display: flex;
+    padding: 0px 70px;
+    justify-content: right;
+    color: darkslategrey;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+
+.Book4-2{
+    display: flex;
+    justify-content: left right;
+}
+.Book4-2 img{
+    display: flex;
+    padding: 0px 90px;
+    width: 90%;
+    height: 90%px;
+
+}
+
+.Description-4-14{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 100px;
+}
+
+.Book4-5{
+    display: flex;
+    justify-content: center;
+    width: 800px;
+    height: 700px;
+    padding: 20px 280px;
+}
+
+.Description-4-14{
+    display: flex;
+    justify-content: center;
+    padding: 0px 200px;
+}
+
+.Description-4-15{
+    display: flex;
+    justify-content: center;
+    color: darkslategrey;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.Description-4-16{
+    display: flex;
+    justify-content: center;
+}
+
+.Description-4-17{
+    display: flex;
+    justify-content: center;
+    color: darkslategrey;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.Description-4-18{
+    display: flex;
+    justify-content: left;
+    padding: 0px 90px;
+}
+
+.Description-4-19{
+    display: flex;
+    justify-content: center;
+}
+
+.Description-4-20{
+    display: flex;
+    justify-content: right;
+    padding: 0px 50px;
+}
+
+.Description-5-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Description-5-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: darkslategrey;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.Description-5-3{
+    display: flex;
+    justify-content: center;
+}
